@@ -2,7 +2,7 @@
 - hosts: webservers
   become: yes
   tasks:
-   - name: install webserver(apache2) on ubuntu20 node1
+   - name: install webserver(apache2) on ubuntu18 node1
      apt:
       name: apache2
       state: present
