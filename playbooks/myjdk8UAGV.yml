@@ -4,12 +4,12 @@
   tasks:
     - name: install java on ubuntu20 node1
       apt:
-       name: "{{ myjavaonubuntu20 }}"
+       name: "{{myjavaonubuntu}}"
        state: present
       when: ansible_os_family == "Debian" 
 
     - name: install java on amazonlinux2 node2
       yum: 
-       name: "{{ myjavaonamazonlinux2 }}" 
+       name: "{{myjavaonamazonos}}" 
        state: present  
       when: ansible_os_family == "RedHat" 
