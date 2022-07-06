@@ -1,2 +1,2 @@
-myjavaonunbuntu: openjdk-8-jre headless 
+myjavaonubuntu: openjdk-8-jre headless 
 myjavaonamzonos: java-1.8.0-openjdk  

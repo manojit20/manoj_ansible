@@ -10,6 +10,6 @@
 
     - name: install java on amazonlinux2 node2
       yum: 
-       name: "{{myjavaonamazonos}}" 
+       name: "{{myjavaonamzonos}}" 
        state: present  
       when: ansible_os_family == "RedHat" 
