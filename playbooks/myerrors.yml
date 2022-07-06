@@ -9,7 +9,8 @@
       ignore_errors: yes
 
 
-    - name: install wget
+    - namee: install git 
+    - name: wget
       apt: 
         name: wget
         state: present
@@ -17,6 +18,6 @@
 
     - name: install tree
       apt:
-        name: install tree
+        name: tree
         state: present       
       ignore_errors: yes
