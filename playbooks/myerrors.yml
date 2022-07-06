@@ -8,8 +8,6 @@
         state: present
       ignore_errors: yes
 
-
-    - namee: install git 
     - name: wget
       apt: 
         name: wget
