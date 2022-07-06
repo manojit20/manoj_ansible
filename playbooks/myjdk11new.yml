@@ -1,0 +1,17 @@
+---
+- hosts: webservers
+  become: yes
+  tasks: 
+  - name: install jdk11 on ubuntu20 node1
+    apt: 
+      namee: "{{myjavaonubuntu}}"
+      state: present
+    when: ansible_os_family == "Debian" 
+    ignore_errors: yes
+
+  - name: install jdk11 on amazonlinux2 node2
+    yum:
+      name: "{{myjavaonamazonos}}"
+      state: present
+    when: ansible_os_family == "RedHat"  
+    ignore_errors: yes
