@@ -2,7 +2,7 @@
 - hosts: webservers
   become: yes
   tasks:
-    - name: install java on ubntu20 node1
+    - name: install java on ubuntu20 node1
       apt:
        name: "{{ myjavaonubuntu20 }}"
        state: present
