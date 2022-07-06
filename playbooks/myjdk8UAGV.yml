@@ -4,7 +4,7 @@
   tasks:
     - name: install java on ubntu20 node1
       apt:
-       name: "{{ myjavaonubuntu }}"
+       name: "{{ myjavaonubuntu20 }}"
        state: present
       when: ansible_os_family == "Debian" 
 
