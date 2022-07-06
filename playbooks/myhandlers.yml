@@ -9,7 +9,7 @@
       notify: startwebserver
 
     - name: i want to copy index file into all nodes
-      templates:
+      template:
        src: mynewindex.j2
        dest: /var/www/html/index.html
       notify: startwebserver 
