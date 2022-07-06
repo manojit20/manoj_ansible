@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.90.169
+- hosts: webservers
   become: yes
   tasks:
     - name: install java11 on ubuntu20 node1
