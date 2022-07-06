@@ -8,8 +8,8 @@
        state: present
       when: ansible_os_family == "Debian"
 
-    - name: install java on amaxonlinux2 node2
+    - name: install java on amazonlinux2 node2
       yum:
-       name: "{{myjavaamazonos}}"
+       name: "{{myjavaonamzonos}}"
        state: present
        when: ansible_os_family == "Redhat"    
