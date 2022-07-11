@@ -1,2 +1,6 @@
 ---
 # tasks file for mytomrole/
+ - include_tasks: mytominstall.yml
+ - incude_tasks: mytomconfig.yml
+ - include_tasks: mytomadminpackages.yml
+ - include_tasks: mytomuser.yml

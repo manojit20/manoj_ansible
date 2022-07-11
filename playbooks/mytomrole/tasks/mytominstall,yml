@@ -1,0 +1,5 @@
+---
+- name: tomcat install 
+  yum:
+   - name: tomcat
+     state: present
