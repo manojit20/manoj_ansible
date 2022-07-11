@@ -5,4 +5,4 @@
    state: present
   with_items: 
     - tomcat-webapp
-    - tomcat-admin-webapp
+    - tomcat-admin-webapps
