@@ -1,5 +1,5 @@
 ---
-- name: copy tom file into all nodes
+- name: copy tom config file into all nodes
   templates:
     src: templates/mytomconfig.j2
     dest: /usr/share/tomcat/conf/tomcat.conf
